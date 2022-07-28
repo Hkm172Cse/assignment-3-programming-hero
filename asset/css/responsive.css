@@ -1,0 +1,25 @@
+@media screen and (max-width: 576px) {
+    nav ul li:last-child{
+        margin-left: 0px !important;
+    }
+
+    .item-container{
+        gap:20px;
+        height: 400px;
+        width: 80%;
+    }
+    .item-container h1{
+        font-size:25px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    .item-container p{
+        font-size:14px;
+    }
+    .carousel-control-prev{
+        display: none !important;
+    }
+    .carousel-control-next{
+        display: none !important;
+    }
+}
