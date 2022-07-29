@@ -28,3 +28,53 @@ nav ul li:last-child{
 .item-container p{
     font-size:18px;
 }
+
+/*===============Courses Section Style Here===================*/
+.discover-section{
+    padding:80px 0px;
+}
+.discover-container>h1{
+    text-align: center;
+    font-weight: bold;
+    width: 61%;
+    margin: auto;
+    font-size: 50px;
+    
+}
+.discover-container>p{
+    text-align: center;
+    color:#555;
+    width: 62%;
+    padding-bottom: 50px;
+    padding-top:30px;
+    margin:auto;
+}
+.card-text h1{
+    font-size: 22px;
+    padding-top: 20px;
+    font-weight: 600;
+    color:#555;
+    padding-right:10px;
+}
+.card-text p{
+    color:#555;
+    padding-right:10px;
+}
+.card-text span{
+    font-weight: bold;
+    font-size:18px;
+}
+.view-all-btn{
+    display: none !important;
+}
+
+/*=========Register - section ===============*/
+.Modal-section{
+    padding-bottom: 80px;
+}
+.regi-btn{
+    background:#fff;
+    padding:15px 20px;
+    border:none;
+    border-radius: 5px;
+}

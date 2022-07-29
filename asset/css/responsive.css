@@ -3,6 +3,7 @@
         margin-left: 0px !important;
     }
 
+    /*========Slider-section===========*/
     .item-container{
         gap:20px;
         height: 400px;
@@ -12,6 +13,7 @@
         font-size:25px;
         font-weight: bold;
         text-transform: capitalize;
+
     }
     .item-container p{
         font-size:14px;
@@ -21,5 +23,31 @@
     }
     .carousel-control-next{
         display: none !important;
+    }
+
+    /*=============Courses-section===============*/
+
+    .discover-container>h1{
+        width: 70%;
+        font-size: 30px; 
+    }
+    .discover-container>p{ 
+        width: 72%;
+    }
+
+    .card-text h1{
+        padding:0px 10px;
+    }
+    .card-text p{
+        padding:0px 10px;
+    }
+    .view-all-btn{
+        display:inline-block !important;
+    }
+    .see-more-btn{
+        display: none !important;
+    }
+    .modal-card-container{
+        text-align: center;
     }
 }
