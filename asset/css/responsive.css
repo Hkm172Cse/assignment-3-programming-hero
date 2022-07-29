@@ -35,6 +35,10 @@
         width: 72%;
     }
 
+    .crs-img{
+        height: 100px !important;
+    }
+
     .card-text h1{
         padding:0px 10px;
     }
@@ -49,5 +53,26 @@
     }
     .modal-card-container{
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:1000px){
+    nav ul li:last-child{
+        margin-left: 0px !important;
+    }
+    .modal-card-container{
+        text-align: center;
+    }
+
+    .item-container{
+        gap:20px;
+        height: 450px;
+        width: 80%;
+    }
+    .item-container h1{
+        font-size:35px;
+        font-weight: bold;
+        text-transform: capitalize;
+
     }
 }
