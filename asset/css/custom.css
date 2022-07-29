@@ -15,6 +15,24 @@ nav ul li:last-child{
 .item{ 
     text-align: center;
 }
+.item-1{
+    background-image: linear-gradient(rgba(105, 15, 15, 0.39), rgba(0, 0, 0, 0.8)),url("../image/back4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item-2{
+    background-image: linear-gradient(rgba(105, 15, 15, 0.69), rgba(0, 0, 0, 0.562)),url("../image/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item-3{
+    background-image: linear-gradient(rgba(105, 300, 15, 0.39), rgba(0, 0, 0, 0.962)),url("../image/back3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .item-container{
     gap:30px;
     height: 500px;
@@ -77,4 +95,42 @@ nav ul li:last-child{
     padding:15px 20px;
     border:none;
     border-radius: 5px;
+}
+
+/* ============Question Section Style here ================*/
+.question-section > .container > h1{
+    padding:10px 0px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    color:#555;
+}
+.question-section > .container > p{
+    padding:10px 0px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color:#555;
+    padding-bottom: 50px;
+}
+.question-box{
+    padding:0px;
+    width:60%;
+    margin:auto;
+}
+
+
+.answer{
+    display: none;
+    transition: display 0.5s ease-in 0.5s;
+}
+.question-box:hover .answer{
+    display: block;
+}
+.question-box i{
+    transition: transform 0.5s;
+}
+.question-box:hover i{
+    transform: rotate(180deg);
 }
